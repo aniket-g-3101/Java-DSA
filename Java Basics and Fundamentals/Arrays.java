@@ -45,3 +45,11 @@ public class Arrays {
 // 2. 2D (2-Dimensional) Array
 // eg - int array[][] = new int[2][3]
 // 2D Array is also called as matrix i.e. it has rows and columns
+
+// compare() Compares two arrays
+// copyOf() Creates a copy of an array with a new length
+// equals() Checks if two arrays are equal
+// fill() Fills an array with a specified value
+// mismatch() Returns the index position of the first mismatch/conflict between
+// two arrays
+// sort() Sorts an array in ascending order
