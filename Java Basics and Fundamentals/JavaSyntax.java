@@ -1,5 +1,6 @@
 // Java is a high-level, object-oriented programming language developed by Sun Microsystems in 1995.
 // It is mostly used for building desktop applications, web applications, Android apps and enterprise systems
+// Remember - The program name and main class name must me same 
 
 import java.util.*;
 
