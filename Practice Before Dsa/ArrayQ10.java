@@ -49,6 +49,6 @@ public class ArrayQ10 {
         } else {
             System.out.println("\nSecond largest element is: " + max2);
         }
-
+        sc.close();
     }
 }
