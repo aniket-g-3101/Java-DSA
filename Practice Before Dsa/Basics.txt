@@ -3,3 +3,49 @@ Before DSA, just practice:
 20 easy problems on loops & arrays (like sum, max, reverse)
 10 on strings (palindrome, count vowels, reverse words)
 5 on functions (like factorial, fibonacci)
+
+
+Problems : 
+20 Easy Problems (Loops + Arrays)
+
+1.Find the sum of all elements in an array
+2.Find the maximum element in an array
+3.Find the minimum element in an array
+4.Count how many even numbers are in an array
+5.Count how many odd numbers are in an array
+6.Find the sum of all even numbers
+7.Find the sum of all odd numbers
+8.Search for a given element in an array
+9.Reverse an array
+10.Find the second largest element
+11.Find the second smallest element
+12.Find the average of array elements
+13.Count how many times a number appears in the array
+14.Check if the array is sorted
+15.Copy one array to another
+16.Print array elements in reverse order
+17.Find the product of all elements
+18.Replace all negative numbers with 0
+19.Find the difference between max and min
+20.Merge two arrays into one
+
+10 Problems on Strings
+
+1.Check if a string is palindrome
+2.Count vowels and consonants
+3.Reverse a string
+4.Remove all spaces
+5.Convert lowercase to uppercase
+6.Find the frequency of each character
+7.Count words in a sentence
+8.Check if two strings are anagrams
+9.Print characters with their ASCII values
+10.Reverse each word in a sentence
+
+5 Problems on Functions
+
+1.Write a function to find factorial of a number
+2.Write a function to generate Fibonacci up to n terms
+3.Write a function to check if a number is prime
+4.Write a function to find GCD of two numbers
+5.Write a function to return the sum of digits of a number
