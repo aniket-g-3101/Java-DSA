@@ -1,9 +1,10 @@
-// 8.Search for a given element in an array
+package Array;
+//4.Count how many even numbers are in an array
 
 import java.util.Scanner;
 
-public class ArrayQ8 {
-    public static void main(String[] args) {
+public class ArrayQ4 {
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[5];
         System.out.println("Enter Elements of Array : ");
@@ -14,20 +15,14 @@ public class ArrayQ8 {
         for (int num : arr) {
             System.out.print(num + " ");
         }
-        boolean found = false;
-        int srch;
-        System.out.println("\nEnter Search Value : ");
-        srch = sc.nextInt();
+        int count = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (srch == arr[i]) {
-                System.out.println("Element found at index :" + i);
-                found = true;
+            if (arr[i] % 2 == 0) {
+                count += 1;
             }
         }
-        if (!found) {
-
-            System.out.println("Element not found");
-        }
+        System.out.println("\nTotal Even Numbers in Array are :" + count);
         sc.close();
     }
+
 }

@@ -1,3 +1,4 @@
+
 //20.Merge two arrays into one
 
 import java.util.Scanner;

@@ -1,3 +1,4 @@
+
 //13.Count how many times a number appears in the array
 
 import java.util.Scanner;

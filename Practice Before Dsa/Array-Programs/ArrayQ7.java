@@ -1,9 +1,10 @@
-//4.Count how many even numbers are in an array
+
+// 7.Find the sum of all odd numbers
 
 import java.util.Scanner;
 
-public class ArrayQ4 {
-    public static void main(String args[]) {
+public class ArrayQ7 {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[5];
         System.out.println("Enter Elements of Array : ");
@@ -14,14 +15,13 @@ public class ArrayQ4 {
         for (int num : arr) {
             System.out.print(num + " ");
         }
-        int count = 0;
+        int sum = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) {
-                count += 1;
+            if (arr[i] % 2 == 1) {
+                sum += arr[i];
             }
         }
-        System.out.println("\nTotal Even Numbers in Array are :" + count);
+        System.out.println("\nSum of Odd Numbers : " + sum);
         sc.close();
     }
-
 }

@@ -1,8 +1,9 @@
-//6.Find the sum of all even numbers
+
+// 8.Search for a given element in an array
 
 import java.util.Scanner;
 
-public class ArrayQ6 {
+public class ArrayQ8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[5];
@@ -14,13 +15,20 @@ public class ArrayQ6 {
         for (int num : arr) {
             System.out.print(num + " ");
         }
-        int sum = 0;
+        boolean found = false;
+        int srch;
+        System.out.println("\nEnter Search Value : ");
+        srch = sc.nextInt();
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) {
-                sum += arr[i];
+            if (srch == arr[i]) {
+                System.out.println("Element found at index :" + i);
+                found = true;
             }
         }
-        System.out.println("\nSum of Even Numbers : " + sum);
+        if (!found) {
+
+            System.out.println("Element not found");
+        }
         sc.close();
     }
 }

@@ -1,3 +1,4 @@
+
 //18.Replace all negative numbers with 0
 
 import java.util.Scanner;

@@ -1,3 +1,4 @@
+
 // 14.Check if the array is sorted
 
 import java.util.Scanner;

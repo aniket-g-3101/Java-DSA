@@ -1,3 +1,4 @@
+
 // 11.Find the second smallest element
 
 import java.util.Scanner;
