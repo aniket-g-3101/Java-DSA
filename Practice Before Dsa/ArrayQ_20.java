@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class ArrayQ20 {
+public class ArrayQ_20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr1[] = new int[10];
