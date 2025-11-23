@@ -1,4 +1,4 @@
-package Array;
+
 //4.Count how many even numbers are in an array
 
 import java.util.Scanner;
