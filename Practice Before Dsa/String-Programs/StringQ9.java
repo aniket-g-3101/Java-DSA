@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class StringQ9 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any string:");
         String str = sc.next();

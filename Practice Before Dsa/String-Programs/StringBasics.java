@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class StringBasics {
     public static void main(String args[]) {
+
         // Define the String
         String name = "Aniket";
         System.out.println(name);

@@ -9,6 +9,7 @@
 
 public class StringBuilders {
     public static void main(String[] args) {
+
         // The line `StringBuilder sb = new StringBuilder("Aniket");` is creating a new
         // `StringBuilder` object
         // named `sb` with an initial value of "Aniket".

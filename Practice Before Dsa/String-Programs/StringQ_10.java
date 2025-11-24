@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class StringQ_10 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any sentence:");
         String sentence = sc.nextLine();
