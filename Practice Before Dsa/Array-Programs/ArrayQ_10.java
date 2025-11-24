@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ArrayQ_10 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[5];
         System.out.println("Enter Elements : ");
