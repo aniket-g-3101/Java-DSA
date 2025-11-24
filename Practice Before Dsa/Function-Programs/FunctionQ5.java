@@ -3,6 +3,8 @@
 import java.util.Scanner;
 
 public class FunctionQ5 {
+    // This Java function `DigitSum` calculates the sum of digits of a given number
+    // `n`.
     public static int DigitSum(int n) {
         int sum = 0;
         while (n != 0) {
